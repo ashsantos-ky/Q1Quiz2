@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coraline 2009</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <style>
+        
+        body {
+            font-family: Asial, sans-serif;
+            background-color: slategrey;
+            text-align: center;
+            background-image: url(https://i.pinimg.com/originals/ff/16/ac/ff16ac49ac64d13ccab392441257a2c7.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #9D9CC6;
+            padding: 20px;
+            border-radius: 10px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background: #a4a4a4;
+            color: #fff;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-family: Asial, sans-serif;
+            cursor: pointer;
+        }
+        .movie-poster img {
+            max-width: 40%;
+            height: auto; 
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .movie-description {
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .character-posters {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+        }
+        .character-posters div {
+            text-align: center;
+        }
+        .character-posters img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+        }
+        .character-posters p {
+            margin: 5px 0;
+        }
+        .character-posters ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+            font-size: 14px;
+            text-align: center;
+        }
+        footer {
+            margin-top: 5px; 
+            padding: 5px;
+            background-color: lightgrey;
+            border-radius: 5px;
+            font-family: Asial, sans-serif;
+        }
+        footer h2 {
+            margin: 0;
+            font-size: 14px; 
+        }
+        footer ul {
+            list-style-type: disc;
+            padding-left: 5px; 
+            font-size: 10px; 
+        }
+        footer li {
+            margin-bottom: 3px;
+        }
+    </style>
+    <div class="container">
+        <section class="movie-poster">
+            <h3>✼ •• ┈┈┈┈๑⋅⋯ ୨˚୧ ⋯⋅๑┈┈┈┈ •• ✼</h3>
+            <img src="https://i.pinimg.com/564x/22/b3/1b/22b31b1bcf3aeb7078bf37e249543183.jpg" alt="Movie Poster">
+        </section>
+        
+        <section class="movie-description">
+            <p style="font-family: monospace;">The film Coraline is about a young girl who curiously explores her new home and gets teleported to another realm.</p>
+            <section class="character-header">
+                <p>─── ⋆⋅˗ˏˋ ★ ˎˊ˗⋆ ───</p>
+            </section>
+        </section>
+
+        <section class="character-posters">
+            <div>
+                <img src="https://i.pinimg.com/236x/77/d9/b8/77d9b8b3ddd7d2bc4748b330a115af44.jpg" alt="Character 1">
+                <p style="color: rebeccapurple; font-weight: bolder; font-family: fantasy, cursive;">Coraline Jones</p>
+                <ul>
+                    <li><span style="font-family: Asial">╰┈➤ The main protagonist</span></li>
+                    <li><span style="font-family: Asial">She is a curious wanderer who moved to Michigan with her parents</span></li>
+                    <li><span style="font-family: Asial">Lured to the other dimension while exploring their new house</span></li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://i.pinimg.com/474x/fc/76/a6/fc76a6126e7cb8921e7d2bbd492b1984.jpg" alt="Character 2">
+                <p style="color: darkslateblue; font-weight: bolder; font-family: fantasy, cursive;">Wybie Lovat</p>
+                <ul>
+                    <li><span style="font-family: Asial">╰┈➤ A young boy that accompanied Coraline</span></li>
+                    <li><span style="font-family: Asial">He is geeky and anxious</span></li>
+                    <li><span style="font-family: Asial">Grandson of the owner in the Pink Palace Apartments</span></li>
+                </ul>
+            </div>
+            <div>
+                <img src="https://i.pinimg.com/236x/fa/f1/f3/faf1f3eb2691248b8df71c9e96f1f5b1.jpg" alt="Character 3">
+                <p style="color: darkslategrey; font-weight: bolder; font-family: fantasy, cursive;">Other Mother</p>
+                <ul>
+                    <li><span style="font-family: Asial">╰┈➤ The Beldam, a.k.a The Other Mother, is the main antagonist</span></li>
+                    <li><span style="font-family: Asial">She is a shape-shifting witch</span></li>
+                    <li><span style="font-family: Asial">Lures children into another dimension to keep their souls</span></li>
+                </ul>
+            </div>
+        </section>
+       <form action="">
+    <label for="options";>Did you watch?</label>
+        <br>
+        <select id="options" name="option">
+            <option value="answer">answer</option>
+            <option value="answer">yes</option>
+            <option value="answer">no</option>
+            <option value="answer">I will</option>
+            <option value="answer">I wont</option>
+        </select>
+        <br><br>
+
+        <label for= "why">Opinions about the movie:</label>
+        <br>
+        <textarea rows="4" cols="30" placeholder="Type your answer here..."></textarea>
+        <br><br>
+       <button class="done">Sew in Buttons</button>
+    </form>
+           
+</body>
+</html>
